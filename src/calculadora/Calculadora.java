@@ -74,11 +74,11 @@ public class Calculadora extends JFrame implements ActionListener {
         painelBotoes.setBorder(BorderFactory.createEmptyBorder(20, 20, 20, 20));
         
         String[][] botoes = {
-            {"C", "", "", "÷"},
-            {"7", "8", "9", "×"},
-            {"4", "5", "6", "−"},
-            {"1", "2", "3", "+"},
-            {"0", "", ".", "="}
+            {"7", "8", "9", "÷"},
+            {"4", "5", "6", "×"},
+            {"1", "2", "3", "−"},
+            {"0", ".", "=", "+"},
+            {"C", "", "", ""}
         };
         
         for (String[] linha : botoes) {
